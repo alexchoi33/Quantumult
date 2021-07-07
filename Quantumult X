@@ -1,0 +1,623 @@
+[general]
+dns_exclusion_list=*.cmpassport.com, *.jegotrip.com.cn, *.icitymobile.mobi, id6.me
+
+geo_location_checker=http://ip-api.com/json/?lang=zh-CN,https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/IP_API.js
+
+resource_parser_url=https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
+
+
+[dns]
+;no-system
+;no-ipv6
+server=223.5.5.5
+server=114.114.114.114
+server=119.29.29.29
+server=8.8.8.8
+
+
+[policy]
+static=TikTok, proxy, img-url=https://s.trojanflare.com/Rules/QuantumultX/IconSet/TikTok.png
+static=Supreme, 美国-FM1-4-流量倍率:1.5, 美国-FM1-3-流量倍率:1.5, img-url=s.circle.fill.system
+static=YeezySupply, 美国-FM1-1-流量倍率:1.5, 美国-FM1-2-流量倍率:1.5, 美国-FM1-3-流量倍率:1.5, 美国-FM1-4-流量倍率:1.5, 美国-FM2-1-流量倍率:0.1, 美国-FM2-2-流量倍率:0.1, 美国-FM2-3-流量倍率:0.1, 美国-FM2-4-流量倍率:0.1, img-url=y.circle.fill.system
+static=Kith EU, 中国-英国伦敦电信 IEPL E01, 中国-英国伦敦电信 IEPL E02, 中国-英国伦敦电信 IEPL E03, 中国-英国伦敦电信 IEPL E04, 中国-英国伦敦电信 IEPL E05, 中国-英国伦敦电信 IEPL E06, img-url=k.square.fill.system
+
+
+[server_remote]
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=中港专线, tag=🧃Hᴏɴɢ Kᴏɴɢ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Blinkload.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=油尖旺, tag=🧋Hᴏɴɢ Kᴏɴɢ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/GLaDOS.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=香港&out=油尖旺, tag=🥤Hᴏɴɢ Kᴏɴɢ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Blinkload_B.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=台湾, tag=🧀 Tᴀɪᴡᴀɴ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bypass.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=日本, tag=🍋 Jᴀᴘᴀɴ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Proxy.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=新加坡, tag=🫐 Sɪɴɢᴀᴘᴏʀᴇ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Static.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=美国, tag=🥭 Usᴀ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=伦敦, tag=🥝 Eɴɢʟᴀɴᴅ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Area.png, update-interval=86400, opt-parser=true, enabled=true
+https://fast.losadhwselfff2332dasd.xyz/link/lAilVXcycxxct8Ws?sub=1#in=韩国, tag=🍍Kᴏʀᴇᴀ, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Dinosaur.png, update-interval=86400, opt-parser=true, enabled=true
+#Hong Kong🇭🇰
+https://panel.nodecat.io//link/8srQGgdMLKHZCLnL?list=quantumultx#in=香港&out=中轉, tag=🇭🇰 Hong Kong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png, update-interval=86400, opt-parser=true, enabled=false
+#Others🧊
+https://panel.nodecat.io//link/8srQGgdMLKHZCLnL?list=quantumultx#out=香港, tag=📍Others, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Bot.png, update-interval=86400, opt-parser=true, enabled=false
+#Hong Kong🇭🇰
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E9%A6%99%E6%B8%AF&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇭🇰 Hong Kong, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/HK.png, update-interval=86400, opt-parser=false, enabled=false
+#Macau🇲🇴
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E6%BE%B3%E9%97%A8&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇲🇴 Macau, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/MO.png, update-interval=86400, opt-parser=false, enabled=false
+#Japan🇯🇵
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E6%97%A5%E6%9C%AC&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇯🇵 Japan, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/JP.png, update-interval=86400, opt-parser=false, enabled=false
+#USA🇺🇸
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E7%BE%8E%E5%9B%BD&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇺🇸 USA, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/US.png, update-interval=86400, opt-parser=false, enabled=false
+#Singapore🇸🇬
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E6%96%B0%E5%8A%A0%E5%9D%A1&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇸🇬 Singapore, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/SG.png, update-interval=86400, opt-parser=false, enabled=false
+#Korea🇰🇷
+https://api.moetools.net/sub/sub?target=quanx&url=https%3A%2F%2Fmocloudplus.xyz%2Flink%2F0MUcsQQhtp8lpIxV%3Fssd%3D1&insert=false&exclude=%E4%B8%AD%E8%BD%AC&include=%E9%9F%A9%E5%9B%BD&emoji=true&list=true&udp=false&tfo=false&scv=false&fdn=false&sort=false, tag=🇰🇷 Korea, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/KR.png, update-interval=86400, opt-parser=false, enabled=false
+#Toyko🇯🇵
+https://s.trojanflare.com/subscription/quantumultx/e49ac059-9b67-4bf6-8ebd-0d2d587f7205#in=TY, tag=🇯🇵 Toyko, update-interval=86400, opt-parser=true, enabled=true,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Loop.png
+#Osaka🇯🇵
+https://s.trojanflare.com/subscription/quantumultx/e49ac059-9b67-4bf6-8ebd-0d2d587f7205#in=OS, tag=🇯🇵 Osaka, update-interval=86400, opt-parser=true, enabled=true,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Trojan.png
+#USA🇺🇸
+https://s.trojanflare.com/subscription/quantumultx/e49ac059-9b67-4bf6-8ebd-0d2d587f7205#in=美国, tag=🇺🇸 USA, update-interval=86400, opt-parser=true, enabled=true,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Ingress.png
+#Taiwan🇹🇼
+https://s.trojanflare.com/subscription/quantumultx/e49ac059-9b67-4bf6-8ebd-0d2d587f7205#in=台湾, tag=🇹🇼 Taiwan, update-interval=86400, opt-parser=true, enabled=true,img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Server.png
+
+
+[filter_remote]
+https://gist.githubusercontent.com/alexchoi33/adf42769ea31037897e39b11d497c3c4/raw/e731ef8fe5343909febc17f16e41d95538ecbcdd/isaac.txt, update-interval=86400, opt-parser=false, enabled=false
+https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=false
+;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
+
+
+[rewrite_remote]
+https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf, tag=YouTube, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/alexchoi33/RW/main/Rewrite.conf, tag=A, update-interval=86400, opt-parser=false, enabled=true
+https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Module/Surge/iOS_Weather_AQI_Standard.sgmodule, update-interval=86400, opt-parser=true, enabled=false
+http://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf#out=Aweme.js+tb_price.js+taobao+mobileDispatch+aweme&outhn=taobao+Aweme*+snssdk.com, tag=All, update-interval=86400, opt-parser=true, enabled=false
+https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Block/YouTubeAds.conf, tag=YouTube Now Not Working, update-interval=86400, opt-parser=false, enabled=true
+
+
+
+[server_local]
+
+
+
+
+[filter_local]
+host, game.clashroyaleapp.com, direct
+host, eu.kith.com, Kith EU
+host, www.eu.kith.com, Kith EU
+host, www.yeezysupply.com, YeezySupply
+host, www.supremenewyork.com, Supreme
+-host-keyword, amemv.com, direct
+host-keyword, nike.com.hk, proxy
+-host-keyword, ipstatp.com, direct
+-host-keyword, byteimg.com, direct
+-host-keyword, amemv.com, direct
+host, apapia-history.manmanbuy.com, direct
+host, logx.optimizely.com, direct
+host-keyword, nike, direct
+user-agent, *snkrs, direct
+host, media.discordapp.net, proxy
+host, www.sneakersnstuff.com, direct
+-host-keyword, paypal, direct
+-DOMAIN-SUFFIX,clashroyaleapp.com,proxy
+-DOMAIN-SUFFIX,clashroyale.com,proxy
+#Sneakrs
+-host-keyword, endclothing, proxy
+-host-keyword, www.sneakrstuff, proxy
+DOMAIN-KEYWORD,sivasdescalzo,Proxy
+-user-agent, END*, proxy
+-user-agent, SNS*, proxy
+-user-agent, SVDapp*, proxy
+USER-AGENT,TeeVee*,Proxy
+
+#General
+HOST-SUFFIX,cn,DIRECT
+HOST-KEYWORD,-cn,DIRECT
+HOST-SUFFIX,TESTFLIGHT.apple.com,Proxy
+
+USER-AGENT,MicroMessenger Client,DIRECT
+USER-AGENT,WeChat*,DIRECT
+
+HOST-SUFFIX,126.com,DIRECT
+HOST-SUFFIX,126.net,DIRECT
+HOST-SUFFIX,127.net,DIRECT
+HOST-SUFFIX,163.com,DIRECT
+HOST-SUFFIX,360buyimg.com,DIRECT
+HOST-SUFFIX,36kr.com,DIRECT
+HOST-SUFFIX,acfun.tv,DIRECT
+HOST-SUFFIX,air-matters.com,DIRECT
+HOST-SUFFIX,aixifan.com,DIRECT
+HOST-SUFFIX,akamaized.net,DIRECT
+HOST-KEYWORD,alicdn,DIRECT
+HOST-KEYWORD,alipay,DIRECT
+HOST-KEYWORD,taobao,DIRECT
+HOST-SUFFIX,amap.com,DIRECT
+HOST-SUFFIX,autonavi.com,DIRECT
+HOST-KEYWORD,baidu,DIRECT
+HOST-SUFFIX,bdimg.com,DIRECT
+HOST-SUFFIX,bdstatic.com,DIRECT
+HOST-SUFFIX,bilibili.com,DIRECT
+HOST-SUFFIX,bilivideo.com,DIRECT
+HOST-SUFFIX,caiyunapp.com,DIRECT
+HOST-SUFFIX,clouddn.com,DIRECT
+HOST-SUFFIX,cnbeta.com,DIRECT
+HOST-SUFFIX,cnbetacdn.com,DIRECT
+HOST-SUFFIX,cootekservice.com,DIRECT
+HOST-SUFFIX,csdn.net,DIRECT
+HOST-SUFFIX,ctrip.com,DIRECT
+HOST-SUFFIX,dgtle.com,DIRECT
+HOST-SUFFIX,dianping.com,DIRECT
+HOST-SUFFIX,douban.com,DIRECT
+HOST-SUFFIX,doubanio.com,DIRECT
+HOST-SUFFIX,duokan.com,DIRECT
+HOST-SUFFIX,easou.com,DIRECT
+HOST-SUFFIX,ele.me,DIRECT
+HOST-SUFFIX,feng.com,DIRECT
+HOST-SUFFIX,fir.im,DIRECT
+HOST-SUFFIX,frdic.com,DIRECT
+HOST-SUFFIX,g-cores.com,DIRECT
+HOST-SUFFIX,godic.net,DIRECT
+HOST-SUFFIX,gtimg.com,DIRECT
+HOST,cdn.hockeyapp.net,DIRECT
+HOST-SUFFIX,hongxiu.com,DIRECT
+HOST-SUFFIX,hxcdn.net,DIRECT
+HOST-SUFFIX,iciba.com,DIRECT
+HOST-SUFFIX,ifeng.com,DIRECT
+HOST-SUFFIX,ifengimg.com,DIRECT
+HOST-SUFFIX,ipip.net,DIRECT
+HOST-SUFFIX,iqiyi.com,DIRECT
+HOST-SUFFIX,jd.com,DIRECT
+HOST-SUFFIX,jianshu.com,DIRECT
+HOST-SUFFIX,knewone.com,DIRECT
+HOST-SUFFIX,le.com,DIRECT
+HOST-SUFFIX,lecloud.com,DIRECT
+HOST-SUFFIX,lemicp.com,DIRECT
+HOST-SUFFIX,licdn.com,DIRECT
+HOST-SUFFIX,linkedin.com,DIRECT
+HOST-SUFFIX,luoo.net,DIRECT
+HOST-SUFFIX,meituan.com,DIRECT
+HOST-SUFFIX,meituan.net,DIRECT
+HOST-SUFFIX,mi.com,DIRECT
+HOST-SUFFIX,miaopai.com,DIRECT
+HOST-SUFFIX,microsoft.com,DIRECT
+HOST-SUFFIX,microsoftonline.com,DIRECT
+HOST-SUFFIX,miui.com,DIRECT
+HOST-SUFFIX,miwifi.com,DIRECT
+HOST-SUFFIX,mob.com,DIRECT
+HOST-SUFFIX,netease.com,DIRECT
+HOST-SUFFIX,office.com,DIRECT
+HOST-KEYWORD,officecdn,DIRECT
+HOST-SUFFIX,office365.com,DIRECT
+HOST-SUFFIX,oschina.net,DIRECT
+HOST-SUFFIX,ppsimg.com,DIRECT
+HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,qcloud.com,DIRECT
+HOST-SUFFIX,qdaily.com,DIRECT
+HOST-SUFFIX,qdmm.com,DIRECT
+HOST-SUFFIX,qhimg.com,DIRECT
+HOST-SUFFIX,qhres.com,DIRECT
+HOST-SUFFIX,qidian.com,DIRECT
+HOST-SUFFIX,qihucdn.com,DIRECT
+HOST-SUFFIX,qiniu.com,DIRECT
+HOST-SUFFIX,qiniucdn.com,DIRECT
+HOST-SUFFIX,qiyipic.com,DIRECT
+HOST-SUFFIX,qq.com,DIRECT
+HOST-SUFFIX,qqurl.com,DIRECT
+HOST-SUFFIX,rarbg.to,DIRECT
+HOST-SUFFIX,ruguoapp.com,DIRECT
+HOST-SUFFIX,segmentfault.com,DIRECT
+HOST-SUFFIX,sinaapp.com,DIRECT
+HOST-SUFFIX,smzdm.com,DIRECT
+HOST-SUFFIX,snapdrop.net,DIRECT
+HOST-SUFFIX,sogou.com,DIRECT
+HOST-SUFFIX,sogoucdn.com,DIRECT
+HOST-SUFFIX,sohu.com,DIRECT
+HOST-SUFFIX,soku.com,DIRECT
+HOST-SUFFIX,speedtest.net,DIRECT
+HOST-SUFFIX,sspai.com,DIRECT
+HOST-SUFFIX,suning.com,DIRECT
+HOST-SUFFIX,taobao.com,DIRECT
+HOST-SUFFIX,tencent.com,DIRECT
+HOST-SUFFIX,tenpay.com,DIRECT
+HOST-SUFFIX,tianyancha.com,DIRECT
+HOST-SUFFIX,tmall.com,DIRECT
+HOST-SUFFIX,tudou.com,DIRECT
+HOST-SUFFIX,umetrip.com,DIRECT
+HOST-SUFFIX,upaiyun.com,DIRECT
+HOST-SUFFIX,upyun.com,DIRECT
+HOST-SUFFIX,veryzhun.com,DIRECT
+HOST-SUFFIX,weather.com,DIRECT
+HOST-SUFFIX,weibo.com,DIRECT
+HOST-SUFFIX,xiami.com,DIRECT
+HOST-SUFFIX,xiami.net,DIRECT
+HOST-SUFFIX,xiaomicp.com,DIRECT
+HOST-SUFFIX,ximalaya.com,DIRECT
+HOST-SUFFIX,xmcdn.com,DIRECT
+HOST-SUFFIX,xunlei.com,DIRECT
+HOST-SUFFIX,yhd.com,DIRECT
+HOST-SUFFIX,yihaodianimg.com,DIRECT
+HOST-SUFFIX,yinxiang.com,DIRECT
+HOST-SUFFIX,ykimg.com,DIRECT
+HOST-SUFFIX,youdao.com,DIRECT
+HOST-SUFFIX,youku.com,DIRECT
+HOST-SUFFIX,zealer.com,DIRECT
+HOST-SUFFIX,zhihu.com,DIRECT
+HOST-SUFFIX,zhimg.com,DIRECT
+HOST-SUFFIX,zimuzu.tv,DIRECT
+HOST-SUFFIX,zoho.com,DIRECT
+
+# 常见广告域名屏蔽
+HOST-KEYWORD,admarvel,REJECT
+HOST-KEYWORD,admaster,REJECT
+HOST-KEYWORD,adsage,REJECT
+HOST-KEYWORD,adsmogo,REJECT
+HOST-KEYWORD,adsrvmedia,REJECT
+HOST-KEYWORD,adwords,REJECT
+HOST-KEYWORD,adservice,REJECT
+HOST-KEYWORD,domob,REJECT
+HOST-KEYWORD,duomeng,REJECT
+HOST-KEYWORD,dwtrack,REJECT
+HOST-KEYWORD,guanggao,REJECT
+HOST-KEYWORD,lianmeng,REJECT
+HOST-SUFFIX,mmstat.com,REJECT
+HOST-KEYWORD,omgmta,REJECT
+HOST-KEYWORD,openx,REJECT
+HOST-KEYWORD,partnerad,REJECT
+HOST-KEYWORD,pingfore,REJECT
+HOST-KEYWORD,supersonicads,REJECT
+HOST-KEYWORD,uedas,REJECT
+HOST-KEYWORD,umeng,REJECT
+HOST-KEYWORD,usage,REJECT
+HOST-KEYWORD,wlmonitor,REJECT
+HOST-KEYWORD,zjtoolbar,REJECT
+
+# 抗 DNS 污染
+HOST-KEYWORD,amazon,Proxy,resolve-on-proxy
+HOST-KEYWORD,google,Proxy,resolve-on-proxy
+HOST-KEYWORD,gmail,Proxy,resolve-on-proxy
+HOST-KEYWORD,youtube,Proxy,resolve-on-proxy
+HOST-KEYWORD,facebook,Proxy,resolve-on-proxy
+HOST-SUFFIX,fb.me,Proxy,resolve-on-proxy
+HOST-SUFFIX,fbcdn.net,Proxy,resolve-on-proxy
+HOST-KEYWORD,twitter,Proxy,resolve-on-proxy
+HOST-KEYWORD,instagram,Proxy,resolve-on-proxy
+HOST-KEYWORD,dropbox,Proxy,resolve-on-proxy
+HOST-SUFFIX,twimg.com,Proxy,resolve-on-proxy
+HOST-KEYWORD,blogspot,Proxy,resolve-on-proxy
+HOST-SUFFIX,youtu.be,Proxy,resolve-on-proxy
+HOST-KEYWORD,whatsapp,Proxy,resolve-on-proxy
+
+# 国外网站
+HOST-SUFFIX,9to5mac.com,Proxy
+HOST-SUFFIX,abpchina.org,Proxy
+HOST-SUFFIX,adblockplus.org,Proxy
+HOST-SUFFIX,adobe.com,Proxy
+HOST-SUFFIX,alfredapp.com,Proxy
+HOST-SUFFIX,amplitude.com,Proxy
+HOST-SUFFIX,ampproject.org,Proxy
+HOST-SUFFIX,android.com,Proxy
+HOST-SUFFIX,angularjs.org,Proxy
+HOST-SUFFIX,aolcdn.com,Proxy
+HOST-SUFFIX,apkpure.com,Proxy
+HOST-SUFFIX,appledaily.com,Proxy
+HOST-SUFFIX,appshopper.com,Proxy
+HOST-SUFFIX,appspot.com,Proxy
+HOST-SUFFIX,arcgis.com,Proxy
+HOST-SUFFIX,archive.org,Proxy
+HOST-SUFFIX,armorgames.com,Proxy
+HOST-SUFFIX,aspnetcdn.com,Proxy
+HOST-SUFFIX,att.com,Proxy
+HOST-SUFFIX,awsstatic.com,Proxy
+HOST-SUFFIX,azureedge.net,Proxy
+HOST-SUFFIX,azurewebsites.net,Proxy
+HOST-SUFFIX,bing.com,Proxy
+HOST-SUFFIX,bintray.com,Proxy
+HOST-SUFFIX,bit.com,Proxy
+HOST-SUFFIX,bit.ly,Proxy
+HOST-SUFFIX,bitbucket.org,Proxy
+HOST-SUFFIX,bjango.com,Proxy
+HOST-SUFFIX,bkrtx.com,Proxy
+HOST-SUFFIX,blog.com,Proxy
+HOST-SUFFIX,blogcdn.com,Proxy
+HOST-SUFFIX,blogger.com,Proxy
+HOST-SUFFIX,blogsmithmedia.com,Proxy
+HOST-SUFFIX,blogspot.com,Proxy
+HOST-SUFFIX,blogspot.hk,Proxy
+HOST-SUFFIX,bloomberg.com,Proxy
+HOST-SUFFIX,box.com,Proxy
+HOST-SUFFIX,box.net,Proxy
+HOST-SUFFIX,cachefly.net,Proxy
+HOST-SUFFIX,chromium.org,Proxy
+HOST-SUFFIX,cl.ly,Proxy
+HOST-SUFFIX,cloudflare.com,Proxy
+HOST-SUFFIX,cloudfront.net,Proxy
+HOST-SUFFIX,cloudmagic.com,Proxy
+HOST-SUFFIX,cmail19.com,Proxy
+HOST-SUFFIX,cnet.com,Proxy
+HOST-SUFFIX,cocoapods.org,Proxy
+HOST-SUFFIX,comodoca.com,Proxy
+HOST-SUFFIX,crashlytics.com,Proxy
+HOST-SUFFIX,culturedcode.com,Proxy
+HOST-SUFFIX,d.pr,Proxy
+HOST-SUFFIX,danilo.to,Proxy
+HOST-SUFFIX,dayone.me,Proxy
+HOST-SUFFIX,db.tt,Proxy
+HOST-SUFFIX,deskconnect.com,Proxy
+HOST-SUFFIX,disq.us,Proxy
+HOST-SUFFIX,disqus.com,Proxy
+HOST-SUFFIX,disquscdn.com,Proxy
+HOST-SUFFIX,dnsimple.com,Proxy
+HOST-SUFFIX,docker.com,Proxy
+HOST-SUFFIX,dribbble.com,Proxy
+HOST-SUFFIX,droplr.com,Proxy
+HOST-SUFFIX,duckduckgo.com,Proxy
+HOST-SUFFIX,dueapp.com,Proxy
+HOST-SUFFIX,dytt8.net,Proxy
+HOST-SUFFIX,edgecastcdn.net,Proxy
+HOST-SUFFIX,edgekey.net,Proxy
+HOST-SUFFIX,edgesuite.net,Proxy
+HOST-SUFFIX,engadget.com,Proxy
+HOST-SUFFIX,entrust.net,Proxy
+HOST-SUFFIX,eurekavpt.com,Proxy
+HOST-SUFFIX,evernote.com,Proxy
+HOST-SUFFIX,fabric.io,Proxy
+HOST-SUFFIX,fast.com,Proxy
+HOST-SUFFIX,fastly.net,Proxy
+HOST-SUFFIX,fc2.com,Proxy
+HOST-SUFFIX,feedburner.com,Proxy
+HOST-SUFFIX,feedly.com,Proxy
+HOST-SUFFIX,feedsportal.com,Proxy
+HOST-SUFFIX,fiftythree.com,Proxy
+HOST-SUFFIX,firebaseio.com,Proxy
+HOST-SUFFIX,flexibits.com,Proxy
+HOST-SUFFIX,flickr.com,Proxy
+HOST-SUFFIX,flipboard.com,Proxy
+HOST-SUFFIX,g.co,Proxy
+HOST-SUFFIX,gabia.net,Proxy
+HOST-SUFFIX,geni.us,Proxy
+HOST-SUFFIX,gfx.ms,Proxy
+HOST-SUFFIX,ggpht.com,Proxy
+HOST-SUFFIX,ghostnoteapp.com,Proxy
+HOST-SUFFIX,git.io,Proxy
+HOST-KEYWORD,github,Proxy
+HOST-SUFFIX,globalsign.com,Proxy
+HOST-SUFFIX,gmodules.com,Proxy
+HOST-SUFFIX,godaddy.com,Proxy
+HOST-SUFFIX,golang.org,Proxy
+HOST-SUFFIX,gongm.in,Proxy
+HOST-SUFFIX,goo.gl,Proxy
+HOST-SUFFIX,goodreaders.com,Proxy
+HOST-SUFFIX,goodreads.com,Proxy
+HOST-SUFFIX,gravatar.com,Proxy
+HOST-SUFFIX,gstatic.com,Proxy
+HOST-SUFFIX,gvt0.com,Proxy
+HOST-SUFFIX,hockeyapp.net,Proxy
+HOST-SUFFIX,hotmail.com,Proxy
+HOST-SUFFIX,icons8.com,Proxy
+HOST-SUFFIX,ifixit.com,Proxy
+HOST-SUFFIX,ift.tt,Proxy
+HOST-SUFFIX,ifttt.com,Proxy
+HOST-SUFFIX,iherb.com,Proxy
+HOST-SUFFIX,imageshack.us,Proxy
+HOST-SUFFIX,img.ly,Proxy
+HOST-SUFFIX,imgur.com,Proxy
+HOST-SUFFIX,imore.com,Proxy
+HOST-SUFFIX,instapaper.com,Proxy
+HOST-SUFFIX,ipn.li,Proxy
+HOST-SUFFIX,is.gd,Proxy
+HOST-SUFFIX,issuu.com,Proxy
+HOST-SUFFIX,itgonglun.com,Proxy
+HOST-SUFFIX,itun.es,Proxy
+HOST-SUFFIX,ixquick.com,Proxy
+HOST-SUFFIX,j.mp,Proxy
+HOST-SUFFIX,js.revsci.net,Proxy
+HOST-SUFFIX,jshint.com,Proxy
+HOST-SUFFIX,jtvnw.net,Proxy
+HOST-SUFFIX,justgetflux.com,Proxy
+HOST-SUFFIX,kat.cr,Proxy
+HOST-SUFFIX,klip.me,Proxy
+HOST-SUFFIX,libsyn.com,Proxy
+HOST-SUFFIX,linode.com,Proxy
+HOST-SUFFIX,lithium.com,Proxy
+HOST-SUFFIX,littlehj.com,Proxy
+HOST-SUFFIX,live.com,Proxy
+HOST-SUFFIX,live.net,Proxy
+HOST-SUFFIX,livefilestore.com,Proxy
+HOST-SUFFIX,llnwd.net,Proxy
+HOST-SUFFIX,macid.co,Proxy
+HOST-SUFFIX,macromedia.com,Proxy
+HOST-SUFFIX,macrumors.com,Proxy
+HOST-SUFFIX,mashable.com,Proxy
+HOST-SUFFIX,mathjax.org,Proxy
+HOST-SUFFIX,medium.com,Proxy
+HOST-SUFFIX,mega.co.nz,Proxy
+HOST-SUFFIX,mega.nz,Proxy
+HOST-SUFFIX,megaupload.com,Proxy
+HOST-SUFFIX,microsofttranslator.com,Proxy
+HOST-SUFFIX,mindnode.com,Proxy
+HOST-SUFFIX,mobile01.com,Proxy
+HOST-SUFFIX,modmyi.com,Proxy
+HOST-SUFFIX,msedge.net,Proxy
+HOST-SUFFIX,myfontastic.com,Proxy
+HOST-SUFFIX,name.com,Proxy
+HOST-SUFFIX,nextmedia.com,Proxy
+HOST-SUFFIX,nsstatic.net,Proxy
+HOST-SUFFIX,nssurge.com,Proxy
+HOST-SUFFIX,nyt.com,Proxy
+HOST-SUFFIX,nytimes.com,Proxy
+HOST-SUFFIX,omnigroup.com,Proxy
+HOST-SUFFIX,onedrive.com,Proxy
+HOST-SUFFIX,onenote.com,Proxy
+HOST-SUFFIX,ooyala.com,Proxy
+HOST-SUFFIX,openvpn.net,Proxy
+HOST-SUFFIX,openwrt.org,Proxy
+HOST-SUFFIX,orkut.com,Proxy
+HOST-SUFFIX,osxdaily.com,Proxy
+HOST-SUFFIX,outlook.com,Proxy
+HOST-SUFFIX,ow.ly,Proxy
+HOST-SUFFIX,paddleapi.com,Proxy
+HOST-SUFFIX,parallels.com,Proxy
+HOST-SUFFIX,parse.com,Proxy
+HOST-SUFFIX,pdfexpert.com,Proxy
+HOST-SUFFIX,periscope.tv,Proxy
+HOST-SUFFIX,pinboard.in,Proxy
+HOST-SUFFIX,pinterest.com,Proxy
+HOST-SUFFIX,pixelmator.com,Proxy
+HOST-SUFFIX,pixiv.net,Proxy
+HOST-SUFFIX,playpcesor.com,Proxy
+HOST-SUFFIX,playstation.com,Proxy
+HOST-SUFFIX,playstation.com.hk,Proxy
+HOST-SUFFIX,playstation.net,Proxy
+HOST-SUFFIX,playstationnetwork.com,Proxy
+HOST-SUFFIX,pushwoosh.com,Proxy
+HOST-SUFFIX,rime.im,Proxy
+HOST-SUFFIX,servebom.com,Proxy
+HOST-SUFFIX,sfx.ms,Proxy
+HOST-SUFFIX,shadowsocks.org,Proxy
+HOST-SUFFIX,sharethis.com,Proxy
+HOST-SUFFIX,shazam.com,Proxy
+HOST-SUFFIX,skype.com,Proxy
+HOST-SUFFIX,smartdnsProxy.com,Proxy
+HOST-SUFFIX,smartmailcloud.com,Proxy
+HOST-SUFFIX,sndcdn.com,Proxy
+HOST-SUFFIX,sony.com,Proxy
+HOST-SUFFIX,soundcloud.com,Proxy
+HOST-SUFFIX,sourceforge.net,Proxy
+HOST-SUFFIX,spotify.com,Proxy
+HOST-SUFFIX,spotify.com,Proxy
+HOST-SUFFIX,pscdn.co,Proxy
+HOST-SUFFIX,scdn.co,Proxy
+HOST-SUFFIX,spoti.fi,Proxy
+HOST-SUFFIX,spotify,Proxy
+HOST-SUFFIX,squarespace.com,Proxy
+HOST-SUFFIX,sstatic.net,Proxy
+HOST-SUFFIX,st.luluku.pw,Proxy
+HOST-SUFFIX,stackoverflow.com,Proxy
+HOST-SUFFIX,startpage.com,Proxy
+HOST-SUFFIX,staticflickr.com,Proxy
+HOST-SUFFIX,steamcommunity.com,Proxy
+HOST-SUFFIX,symauth.com,Proxy
+HOST-SUFFIX,symcb.com,Proxy
+HOST-SUFFIX,symcd.com,Proxy
+HOST-SUFFIX,tapbots.com,Proxy
+HOST-SUFFIX,tapbots.net,Proxy
+HOST-SUFFIX,tdesktop.com,Proxy
+HOST-SUFFIX,techcrunch.com,Proxy
+HOST-SUFFIX,techsmith.com,Proxy
+HOST-SUFFIX,thepiratebay.org,Proxy
+HOST-SUFFIX,theverge.com,Proxy
+HOST-SUFFIX,time.com,Proxy
+HOST-SUFFIX,timeinc.net,Proxy
+HOST-SUFFIX,tiny.cc,Proxy
+HOST-SUFFIX,tinypic.com,Proxy
+HOST-SUFFIX,tmblr.co,Proxy
+HOST-SUFFIX,todoist.com,Proxy
+HOST-SUFFIX,trello.com,Proxy
+HOST-SUFFIX,trustasiassl.com,Proxy
+HOST-SUFFIX,tumblr.co,Proxy
+HOST-SUFFIX,tumblr.com,Proxy
+HOST-SUFFIX,tweetdeck.com,Proxy
+HOST-SUFFIX,tweetmarker.net,Proxy
+HOST-SUFFIX,twitch.tv,Proxy,resolve-on-proxy
+HOST-SUFFIX,txmblr.com,Proxy
+HOST-SUFFIX,typekit.net,Proxy
+HOST-SUFFIX,ubertags.com,Proxy
+HOST-SUFFIX,ublock.org,Proxy
+HOST-SUFFIX,ubnt.com,Proxy
+HOST-SUFFIX,ulyssesapp.com,Proxy
+HOST-SUFFIX,urchin.com,Proxy
+HOST-SUFFIX,usertrust.com,Proxy
+HOST-SUFFIX,v2ex.com,Proxy
+HOST-SUFFIX,v.gd,Proxy
+HOST-SUFFIX,vimeo.com,Proxy
+HOST-SUFFIX,vimeocdn.com,Proxy
+HOST-SUFFIX,vine.co,Proxy
+HOST-SUFFIX,vivaldi.com,Proxy
+HOST-SUFFIX,vox-cdn.com,Proxy
+HOST-SUFFIX,vsco.co,Proxy
+HOST-SUFFIX,vultr.com,Proxy
+HOST-SUFFIX,w.org,Proxy
+HOST-SUFFIX,w3schools.com,Proxy
+HOST-SUFFIX,webtype.com,Proxy
+HOST-SUFFIX,wikiwand.com,Proxy
+HOST-SUFFIX,wikileaks.org,Proxy
+HOST-SUFFIX,wikimedia.org,Proxy
+HOST-SUFFIX,wikipedia.com,Proxy
+HOST-SUFFIX,wikipedia.org,Proxy
+HOST-SUFFIX,windows.com,Proxy
+HOST-SUFFIX,windows.net,Proxy
+HOST-SUFFIX,wire.com,Proxy
+HOST-SUFFIX,wordpress.com,Proxy
+HOST-SUFFIX,workflowy.com,Proxy
+HOST-SUFFIX,wp.com,Proxy
+HOST-SUFFIX,wsj.com,Proxy
+HOST-SUFFIX,wsj.net,Proxy
+HOST-SUFFIX,xda-developers.com,Proxy
+HOST-SUFFIX,xeeno.com,Proxy
+HOST-SUFFIX,xiti.com,Proxy
+HOST-SUFFIX,yahoo.com,Proxy
+HOST-SUFFIX,yimg.com,Proxy
+HOST-SUFFIX,ying.com,Proxy
+HOST-SUFFIX,yoyo.org,Proxy
+HOST-SUFFIX,ytimg.com,Proxy
+
+# Telegram
+## 域名
+HOST-SUFFIX,telegra.ph,Proxy
+HOST-SUFFIX,telegram.org,Proxy
+
+## IPv4 地址段
+IP-CIDR,91.108.4.0/22,Proxy,no-resolve
+IP-CIDR,91.108.8.0/22,Proxy,no-resolve
+IP-CIDR,91.108.12.0/22,Proxy,no-resolve
+IP-CIDR,91.108.16.0/22,Proxy,no-resolve
+IP-CIDR,91.108.56.0/22,Proxy,no-resolve
+IP-CIDR,149.154.160.0/22,Proxy,no-resolve
+IP-CIDR,149.154.164.0/22,Proxy,no-resolve
+IP-CIDR,149.154.168.0/22,Proxy,no-resolve
+IP-CIDR,149.154.172.0/22,Proxy,no-resolve
+# LAN
+HOST-SUFFIX,local,DIRECT
+IP-CIDR,127.0.0.0/8,DIRECT
+IP-CIDR,172.16.0.0/12,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT
+IP-CIDR,10.0.0.0/8,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT
+IP-CIDR,100.64.0.0/10,DIRECT
+# 最终规则
+GEOIP,CN,DIRECT
+FINAL,PROXY
+
+
+[rewrite_local]
+^https:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_product_list - script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/nomo.js
+https://weather-data.apple.com/v1/weather/[\w-_]+/[0-9]+\.[0-9]+/[0-9]+\.[0-9]+\?include= - script-request-body https://gist.githubusercontent.com/alexchoi33/7c29db80bab64bad94ed81de1e33dad0/raw/f84ffd8a19c68192762efdc804b2afa12f449195/AQI.js
+
+#TikTok
+(?<=_region=)CN(?=&) url 307 US
+(?<=&mcc_mnc=)4 url 307 2
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) url 307 17
+
+#10010
+^https?:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm url script-request-header 10010.cookie.js
+^https?:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign url script-request-header 10010.cookie.js
+^https?:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo) url script-request-header 10010.cookie.js
+
+[task_local]
+0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/flow.js, tag=机场流量, img-url=https://raw.githubusercontent.com/Orz-3/task/master/airport.png, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10086.png, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js, tag=中国联通, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10010.png, enabled=true
+1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js, tag=中国电信, img-url=https://raw.githubusercontent.com/Orz-3/task/master/10000.png, enabled=true
+;* * * * * sample-task.js
+;* * * * * sample-task2.js, img-url=https://raw.githubusercontent.com/crossutility/Quantumult-X/master/quantumult-x.png, tag=Sample, enabled=true
+25 0 * * * 10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png, enabled=true
+
+20 6 * * * 10010.js, tag=10010, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Lab.png, enabled=true
+
+[mitm]
+passphrase = 5ABFCE49
+p12 = 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
+
+;passphrase =
+;p12 =
+;skip_validating_cert = false
+;force_sni_domain_name = false
+hostname = m.client.10010.com, act.10010.com, vsco.co,  *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.comm,nomo.dafork.com , *.googlevideo.com
