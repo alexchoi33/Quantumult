@@ -1,0 +1,3 @@
+# 查看ss: bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/centos_install_ssr.sh) info
+
+c3NyOi8vTVRNeExqRTROaTQwTUM0eU5UbzFOakl3TXpwdmNtbG5hVzQ2WTJoaFkyaGhNakF0YVdWMFpqcG9kSFJ3WDNOcGJYQnNaVHBOVkdzMVRrVkdhVTFVYXpWT1VTOC9jbVZ0WVhKcmN6MG1jSEp2ZEc5d1lYSmhiVDBtYjJKbWMzQmhjbUZ0UFE=
