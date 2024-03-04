@@ -11,7 +11,7 @@
  */
 
 
-let title = 'A'
+let title = 'AliDrive Checkin'
 const keyName = 'ADriveCheckIn'
 const $ = new Env(title, true)
 let ADrivre = {
@@ -28,12 +28,12 @@ if(ADrivreInfo.isAutoGetReword===undefined || ADrivreInfo.isAutoGetReword==='')
     ADrivreInfo.isAutoGetReword = 'true'
 if(ADrivreInfo.isAutoGetReword === 'false')
     $.isAutoGetReword = false
-console.log('自动领取开启：' + $.isAutoGetReword)
+console.log('Auto Claim Reward：' + $.isAutoGetReword)
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 const checkInUrl = 'https://member.aliyundrive.com/v2/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
 if (typeof $request !== 'undefined') {
-    $.log('🤖获取token')
+    $.log('🤖Fetch Token')
     GetRefresh_token()
 } else if (!ADrivreInfo.refresh_token_body && !ADrivreInfo.headers) {
     if($.getdata('@ADrive.refresh_token'))
@@ -44,7 +44,7 @@ if (typeof $request !== 'undefined') {
     }
     $.done();
 } else {
-    $.log('🤖签到操作')
+    $.log('🤖Checkin Operation')
     getAuthorizationKey()
 }
 
@@ -65,9 +65,9 @@ function GetRefresh_token() {
                 ADrivreInfo.headers = headers
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.msg('更新阿里网盘refresh_token成功 🎉', '', '')
+                    $.msg('Refresh refresh_token Success 🎉', '', '')
                 } else {
-                    $.msg('更新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('Refresh refresh_token Fail‼️', '', '')
                 }
             }
         } else {
@@ -99,7 +99,7 @@ function getAuthorizationKey() {
         },
         body: JSON.stringify(ADrivreInfo.refresh_token_body)
     }
-    $.log('获取authorization')
+    $.log('Fetch Authorization')
     $.post(option, function (error, response, data) {
         if (error) {
             $.log('错误原因：' + error)
@@ -118,9 +118,9 @@ function getAuthorizationKey() {
                 ADrivreInfo.refresh_token = refresh_token2
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.log('刷新阿里网盘refresh_token成功 🎉')
+                    $.log('Refresh refresh_token Success 🎉')
                 } else {
-                    $.msg('刷新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('Refresh refresh_token Fail ‼️', '', '')
                 }
             }
             signCheckin(accessKey)
@@ -147,7 +147,7 @@ function signCheckin(authorization) {
         },
         body: JSON.stringify({})
     }
-    $.log('签到开始')
+    $.log('Checkin Start')
     $.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
@@ -168,22 +168,22 @@ function signCheckin(authorization) {
             const isSignIn = body.result.isSignIn
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
-            let stitle = '🎉' + body.result.title + ' 签到成功'
+            let stitle = '🎉' + body.result.title + ' Checkin Success'
             let signInLogs = body.result.signInInfos
-            $.log('签到天数: ' + signInCount)
+            $.log('Checkin Days : ' + signInCount)
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
             {
-                $.log('已经月末了，请不要忘记领取前面未领取的奖励')
-                $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
+                $.log('Please don't forget to claim reward')
+                $.msg(title,'📅Tips','Please don't forget to claim reward')
             }
             signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
-                            $.log('签到奖励：' + reward)
+                            reward = 'Checkin ' + signInCount + ' Days Reward' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            $.log('Checkin Reward ：' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
                             reward = i.poster?.reason +'\n' + i.poster?.name
@@ -191,7 +191,7 @@ function signCheckin(authorization) {
                                 if($.isAutoGetReword)
                                 {
                                     reward = ''
-                                    $.log('签到完成')
+                                    $.log('Checkin Done')
                                     if(!$.isAutoGetReword)
                                         $.log('⚠自动领取奖励未开启')
                                     getReword(authorization,signInCount)
@@ -208,7 +208,7 @@ function signCheckin(authorization) {
                 $.msg(title, stitle, reward)
             }
             if(!isReward && reward){
-                stitle = '⚠️今天已经签到过了'
+                stitle = '⚠️Already Checkin Toady'
                 $.msg(title, stitle, reward)
             }
             $.done()
