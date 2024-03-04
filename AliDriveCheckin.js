@@ -11,7 +11,7 @@
  */
 
 
-let title = '🔔阿里云盘签到'
+let title = 'A'
 const keyName = 'ADriveCheckIn'
 const $ = new Env(title, true)
 let ADrivre = {
