@@ -99,7 +99,7 @@ function getAuthorizationKey() {
         },
         body: JSON.stringify(ADrivreInfo.refresh_token_body)
     }
-    $.log('获取authorization')
+    $.log('Fetch Authorization')
     $.post(option, function (error, response, data) {
         if (error) {
             $.log('错误原因：' + error)
@@ -118,9 +118,9 @@ function getAuthorizationKey() {
                 ADrivreInfo.refresh_token = refresh_token2
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.log('刷新阿里网盘refresh_token成功 🎉')
+                    $.log('Refresh refresh_token Success 🎉')
                 } else {
-                    $.msg('刷新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('Refresh refresh_token Fail ‼️', '', '')
                 }
             }
             signCheckin(accessKey)
@@ -147,7 +147,7 @@ function signCheckin(authorization) {
         },
         body: JSON.stringify({})
     }
-    $.log('签到开始')
+    $.log('Checkin Start')
     $.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
