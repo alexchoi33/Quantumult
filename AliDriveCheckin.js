@@ -44,7 +44,7 @@ if (typeof $request !== 'undefined') {
     }
     $.done();
 } else {
-    $.log('🤖签到操作')
+    $.log('🤖Checkin Operation')
     getAuthorizationKey()
 }
 
@@ -65,9 +65,9 @@ function GetRefresh_token() {
                 ADrivreInfo.headers = headers
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.msg('更新阿里网盘refresh_token成功 🎉', '', '')
+                    $.msg('Refresh refresh_token Success 🎉', '', '')
                 } else {
-                    $.msg('更新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('Refresh refresh_token Fail‼️', '', '')
                 }
             }
         } else {
