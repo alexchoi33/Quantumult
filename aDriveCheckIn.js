@@ -44,7 +44,7 @@ if (typeof $request !== 'undefined') {
     }
     $.done();
 } else {
-    $.log('🤖签到操作')
+    $.log('🤖checkin start')
     getAuthorizationKey()
 }
 
