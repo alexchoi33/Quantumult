@@ -11,7 +11,7 @@
  */
 
 
-let title = '🔔阿里云盘签到'
+let title = 'AliDrive Checkin'
 const keyName = 'ADriveCheckIn'
 const $ = new Env(title, true)
 let ADrivre = {
@@ -65,9 +65,9 @@ function GetRefresh_token() {
                 ADrivreInfo.headers = headers
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.msg('更新阿里网盘refresh_token成功 🎉', '', '')
+                    $.msg('refresh refresh_token success 🎉', '', '')
                 } else {
-                    $.msg('更新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('refresh refresh_token fail‼️', '', '')
                 }
             }
         } else {
@@ -103,7 +103,7 @@ function getAuthorizationKey() {
     $.post(option, function (error, response, data) {
         if (error) {
             $.log('错误原因：' + error)
-            $.msg(title, '❌签到失败', '刷新authorization失败')
+            $.msg(title, '❌checkin fail', 'refresh authorization fail')
             return $.done()
         } else if(!data)
         {
@@ -120,7 +120,7 @@ function getAuthorizationKey() {
                 if (t) {
                     $.log('刷新阿里网盘refresh_token成功 🎉')
                 } else {
-                    $.msg('刷新阿里网盘refresh_token失败‼️', '', '')
+                    $.msg('refresh refresh_token fail ‼️', '', '')
                 }
             }
             signCheckin(accessKey)
@@ -151,7 +151,7 @@ function signCheckin(authorization) {
     $.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
-            $.msg(title, '❌签到失败', '无法签到，请手动签到')
+            $.msg(title, '❌checkin fail', 'please checkin manual')
             $.done()
         } else if(!data)
         {
@@ -162,13 +162,13 @@ function signCheckin(authorization) {
                 $.log('\n body.message内容打印\n')
                 $.log(body.message)
                 $.log('\n body.message不为空，脚本结束')
-                $.msg(title, '❌签到失败', body.message)
+                $.msg(title, '❌checkin fail', body.message)
                 $.done()
             }
             const isSignIn = body.result.isSignIn
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
-            let stitle = '🎉' + body.result.title + ' 签到成功'
+            let stitle = '🎉' + body.result.title + ' checkin success'
             let signInLogs = body.result.signInInfos
             $.log('签到天数: ' + signInCount)
             let reward = ''
@@ -182,7 +182,7 @@ function signCheckin(authorization) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            reward = ' checkin' + signInCount + 'days reward，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
                             $.log('签到奖励：' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
@@ -208,7 +208,7 @@ function signCheckin(authorization) {
                 $.msg(title, stitle, reward)
             }
             if(!isReward && reward){
-                stitle = '⚠️今天已经签到过了'
+                stitle = '⚠️already checkin today'
                 $.msg(title, stitle, reward)
             }
             $.done()
