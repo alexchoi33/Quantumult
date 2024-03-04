@@ -147,7 +147,7 @@ function signCheckin(authorization) {
         },
         body: JSON.stringify({})
     }
-    $.log('签到开始')
+    $.log('Checkin Start')
     $.post(url_fetch_sign, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
@@ -170,7 +170,7 @@ function signCheckin(authorization) {
             let isReward = body.result.isReward
             let stitle = '🎉' + body.result.title + ' checkin success'
             let signInLogs = body.result.signInInfos
-            $.log('签到天数: ' + signInCount)
+            $.log('Checkin Days: ' + signInCount)
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
             {
@@ -182,8 +182,8 @@ function signCheckin(authorization) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = ' checkin' + signInCount + 'days reward，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
-                            $.log('签到奖励：' + reward)
+                            reward = 'Checkin' + signInCount + ' days reward，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            $.log('Checkin Reward：' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
                             reward = i.poster?.reason +'\n' + i.poster?.name
@@ -208,7 +208,7 @@ function signCheckin(authorization) {
                 $.msg(title, stitle, reward)
             }
             if(!isReward && reward){
-                stitle = '⚠️already checkin today'
+                stitle = '⚠️Already checkin today'
                 $.msg(title, stitle, reward)
             }
             $.done()
