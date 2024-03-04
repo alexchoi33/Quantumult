@@ -182,8 +182,8 @@ function signCheckin(authorization) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = 'Checkin ' + signInCount + ' Days Reward, ' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
-                            $.log('Checkin Reward ：' + reward)
+                            reward = 'Checkin ' + signInCount + ' Days Reward: ' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            $.log('Checkin Reward: ' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
                             reward = i.poster?.reason +'\n' + i.poster?.name
