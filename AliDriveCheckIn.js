@@ -28,7 +28,7 @@ if(ADrivreInfo.isAutoGetReword===undefined || ADrivreInfo.isAutoGetReword==='')
     ADrivreInfo.isAutoGetReword = 'true'
 if(ADrivreInfo.isAutoGetReword === 'false')
     $.isAutoGetReword = false
-console.log('自动领取开启：' + $.isAutoGetReword)
+console.log('Auto claim reward：' + $.isAutoGetReword)
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 const checkInUrl = 'https://member.aliyundrive.com/v2/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
@@ -44,7 +44,7 @@ if (typeof $request !== 'undefined') {
     }
     $.done();
 } else {
-    $.log('🤖checkin start')
+    $.log('🤖Checkin start')
     getAuthorizationKey()
 }
 
@@ -182,7 +182,7 @@ function signCheckin(authorization) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = 'Checkin' + signInCount + ' days reward，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            reward = 'Checkin ' + signInCount + ' days reward, ' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
                             $.log('Checkin Reward：' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
