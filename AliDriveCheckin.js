@@ -217,7 +217,7 @@ function signCheckin(authorization) {
 }
 
 function getReword(authorization,signInCount){
-    $.log('开始自动领取奖励')
+    $.log('Start Auto Claiming Reward')
     const date = new Date()
     let timeStamp = Date.parse(date)
     let xumt = 'defaultFY1_fyjs_not_loaded@@https://pages.aliyundrive.com/mobile-page/web/dailycheck.html@@' + timeStamp
@@ -238,7 +238,7 @@ function getReword(authorization,signInCount){
             "signInDay": signInCount
         })
     }
-    $.log('开始领取奖励')
+    $.log('Start Claiming Reward')
     $.post(url_fetch_reword, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
@@ -262,8 +262,8 @@ function getReword(authorization,signInCount){
                 finalResult = rewordName
             $.log('rewordName: ' + rewordName)
             $.log('rewordDescription: ' + rewordDescription)
-            console.log('自动领取奖励成功，获得 ' + rewordDescription)
-            $.msg(title,'签到成功！已自动领取奖励！','获得 ' + finalResult)
+            console.log('Auto claim reward done, reward: ' + rewordDescription)
+            $.msg(title,'Checkin Success! Auto Claim Reward','with: ' + finalResult)
             $.done()
         }
     })
