@@ -193,11 +193,11 @@ function signCheckin(authorization) {
                                     reward = ''
                                     $.log('Checkin Done')
                                     if(!$.isAutoGetReword)
-                                        $.log('⚠自动领取奖励未开启')
+                                        $.log('⚠Auto claim reward off')
                                     getReword(authorization,signInCount)
                                 }else{
-                                    reward = '❌签到奖励还未领取，自动领取未开启'
-                                    $.log('奖励还未领取')
+                                    reward = '❌Reward not claim, auto claim off'
+                                    $.log('Reward not claim')
                                 }
                             }
                         }
