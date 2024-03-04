@@ -174,8 +174,8 @@ function signCheckin(authorization) {
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
             {
-                $.log('Please don't forget to claim the reward')
-                $.msg(title,'📅','Please don't forget to claim the reward')
+                $.log('已经月末了，请不要忘记领取前面未领取的奖励')
+                $.msg(title,'📅月末提醒','请不要忘记领取之前的奖励')
             }
             signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
@@ -191,7 +191,7 @@ function signCheckin(authorization) {
                                 if($.isAutoGetReword)
                                 {
                                     reward = ''
-                                    $.log('Checkin Success')
+                                    $.log('签到完成')
                                     if(!$.isAutoGetReword)
                                         $.log('⚠自动领取奖励未开启')
                                     getReword(authorization,signInCount)
