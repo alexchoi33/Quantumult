@@ -182,8 +182,8 @@ function signCheckin(authorization) {
                     if(i.status === 'normal')
                     {
                         if (i.rewards.length > 0 && i.rewards[0].status === 'verification') {
-                            reward = ' 第' + signInCount + '天奖励，' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
-                            $.log('签到奖励：' + reward)
+                            reward = 'Checkin ' + signInCount + ' Days Reward, ' + i.rewards[0].name + ' ' + i.rewards[0].rewardDesc
+                            $.log('Checkin Reward ：' + reward)
                         }
                         else if (i.rewards.length > 0 && i.rewards[0].status === 'finished') {
                             reward = i.poster?.reason +'\n' + i.poster?.name
@@ -208,7 +208,7 @@ function signCheckin(authorization) {
                 $.msg(title, stitle, reward)
             }
             if(!isReward && reward){
-                stitle = '⚠️今天已经签到过了'
+                stitle = '⚠️Alreday Checkin Today'
                 $.msg(title, stitle, reward)
             }
             $.done()
