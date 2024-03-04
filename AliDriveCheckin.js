@@ -11,7 +11,7 @@
  */
 
 
-let title = '🔔阿里云盘签到'
+let title = 'AliDrive Checkin'
 const keyName = 'ADriveCheckIn'
 const $ = new Env(title, true)
 let ADrivre = {
@@ -28,12 +28,12 @@ if(ADrivreInfo.isAutoGetReword===undefined || ADrivreInfo.isAutoGetReword==='')
     ADrivreInfo.isAutoGetReword = 'true'
 if(ADrivreInfo.isAutoGetReword === 'false')
     $.isAutoGetReword = false
-console.log('自动领取开启：' + $.isAutoGetReword)
+console.log('Auto Claim Reward：' + $.isAutoGetReword)
 const authUrl = 'https://auth.aliyundrive.com/v2/account/token'
 const checkInUrl = 'https://member.aliyundrive.com/v2/activity/sign_in_list'
 const rewordUrl = 'https://member.aliyundrive.com/v1/activity/sign_in_reward?_rx-s=mobile'
 if (typeof $request !== 'undefined') {
-    $.log('🤖获取token')
+    $.log('🤖Fetch Token')
     GetRefresh_token()
 } else if (!ADrivreInfo.refresh_token_body && !ADrivreInfo.headers) {
     if($.getdata('@ADrive.refresh_token'))
