@@ -99,7 +99,7 @@ function getAuthorizationKey() {
         },
         body: JSON.stringify(ADrivreInfo.refresh_token_body)
     }
-    $.log('获取authorization')
+    $.log('fetch authorization')
     $.post(option, function (error, response, data) {
         if (error) {
             $.log('错误原因：' + error)
@@ -118,7 +118,7 @@ function getAuthorizationKey() {
                 ADrivreInfo.refresh_token = refresh_token2
                 let t = $.setjson(ADrivreInfo,keyName)
                 if (t) {
-                    $.log('刷新阿里网盘refresh_token成功 🎉')
+                    $.log('refresh refresh_token success 🎉')
                 } else {
                     $.msg('refresh refresh_token fail ‼️', '', '')
                 }
