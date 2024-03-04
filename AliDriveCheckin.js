@@ -174,8 +174,8 @@ function signCheckin(authorization) {
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
             {
-                $.log('Please don't forget to claim reward')
-                $.msg(title,'📅Tips','Please don't forget to claim reward')
+                $.log('Please do not forget to claim reward')
+                $.msg(title,'📅Tips','Please do not forget to claim reward')
             }
             signInLogs.forEach(function (i) {
                 if (Number(i.day) === signInCount) {
