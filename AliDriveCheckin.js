@@ -168,9 +168,9 @@ function signCheckin(authorization) {
             const isSignIn = body.result.isSignIn
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
-            let stitle = '🎉' + body.result.title + ' 签到成功'
+            let stitle = '🎉' + body.result.title + ' Checkin Success'
             let signInLogs = body.result.signInInfos
-            $.log('签到天数: ' + signInCount)
+            $.log('Checkin Days: ' + signInCount)
             let reward = ''
             if(signInCount > 22 && !$.isAutoGetReword)
             {
