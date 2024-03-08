@@ -190,12 +190,13 @@ function signCheckin(authorization) {
                             if(reward === 'undefined\nundefined') {
                                 if($.isAutoGetReword)
                                 {
-                                    reward = ''
+                                    //reward = ''
                                     $.log('Checkin Done')
+                                    getReword(authorization,signInCount)
                                     $.msg(title, stitle)
                                     if(!$.isAutoGetReword)
                                         $.log('⚠Auto claim reward off')
-                                    getReword(authorization,signInCount)
+                                    //getReword(authorization,signInCount)
                                 }else{
                                     reward = '❌Reward not claim, auto claim off'
                                     $.log('Reward not claim')
