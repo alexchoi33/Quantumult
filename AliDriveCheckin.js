@@ -211,7 +211,7 @@ function signCheckin(authorization) {
             }*/
             if(!isReward && reward){
                 //stitle = '⚠️Alreday Checkin Today'
-                $.msg(title, reward)
+                $.msg(title, stitle, reward)
             }
             $.done()
         }
