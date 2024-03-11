@@ -168,7 +168,7 @@ function signCheckin(authorization) {
             const isSignIn = body.result.isSignIn
             let signInCount = Number(body.result.signInCount)
             let isReward = body.result.isReward
-            let stitle = '🎉' + 'Checkin Success'
+            let stitle = '🎉 ' + 'Checkin Success'
             let signInLogs = body.result.signInInfos
             $.log('Checkin Days: ' + signInCount)
             let reward = ''
@@ -193,7 +193,7 @@ function signCheckin(authorization) {
                                     //reward = ''
                                     $.log('Checkin Done')
                                     getReword(authorization,signInCount)
-                                    $.msg(title, stitle, 'Checkin' + signInCount +' Days', isReward)
+                                    $.msg(title, stitle, '🧬 Checkin Successfully Days: ' + signInCount +' Days', isReward)
                                     if(!$.isAutoGetReword)
                                         $.log('⚠Auto claim reward off')
                                     //getReword(authorization,signInCount)
@@ -211,7 +211,7 @@ function signCheckin(authorization) {
             }*/
             if(!isReward && reward){
                 //stitle = '⚠️Alreday Checkin Today'
-                $.msg(title, stitle, reward)
+                //$.msg(title, stitle, reward)
             }
             $.done()
         }
