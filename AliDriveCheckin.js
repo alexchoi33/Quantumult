@@ -212,6 +212,9 @@ function signCheckin(authorization) {
             if(!isReward && reward){
                 //stitle = '⚠️Alreday Checkin Today'
                 //$.msg(title, stitle, reward)
+                const rewordDescription = body.result.description
+                let finalResult = rewordDescription
+                $.msg(title,'Checkin Success! Auto Claim Reward','with: ' + finalResult)
             }
             $.done()
         }
@@ -241,6 +244,11 @@ function getReword(authorization,signInCount){
         })
     }
     $.log('Start Claiming Reward')
+    
+    const rewordDescription = body.result.description
+    let finalResult = rewordDescription
+    $.msg(title,'Checkin Success! Auto Claim Reward','with: ' + finalResult)
+    
     $.post(url_fetch_reword, function (error, response, data) {
         if (error) {
             $.log('错误：' + error)
