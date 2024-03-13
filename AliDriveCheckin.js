@@ -193,12 +193,7 @@ function signCheckin(authorization) {
                                     //reward = ''
                                     $.log('Checkin Done')
                                     getReword(authorization,signInCount)
-                                    $.msg(title, stitle, '🧬 Checkin Successfully Days: ' + signInCount +' Days', isReward)
-                                      
-                                    const rewordDescription = body.result.description
-                                    let finalResult = rewordDescription
-                                    $.msg(title,'Checkin Success! Auto Claim Reward','with: ' + finalResult)
-    
+                                    $.msg(title, stitle, '🧬 Checkin Successfully Days: ' + signInCount +' Days', reward)
                                     if(!$.isAutoGetReword)
                                         $.log('⚠Auto claim reward off')
                                     //getReword(authorization,signInCount)
