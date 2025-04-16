@@ -6,7 +6,7 @@ let storeItemMenusConfig = $.getdata('itemMenusConfig');
 
 //主要的选项配置
 const mainConfig = storeMainConfig ? JSON.parse(storeMainConfig) : {
-	isDebug: false,						//开启调试，会打印运行中部分日志
+	isDebug: true,						//开启调试，会打印运行中部分日志
 	//个人中心配置，其中多数是可以直接在更多功能里直接移除
 	removeHomeVip: true,				//个人中心的vip栏
 	removeHomeCreatorTask: true,		//个人中心创作者中心下方的轮播图
