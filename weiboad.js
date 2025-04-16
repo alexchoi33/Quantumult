@@ -594,7 +594,24 @@ function removeComments(data) {
 	let items = data.datas || [];
 	if (items.length === 0) return;
 	let newItems = [];
-	
+	for (const item of items) {
+		if (isAd(item.data)) {
+			continue;
+		}
+		if (item.data?.user) {
+			if (["超话社区", "微博开新年", "微博热搜", "微博视频"].includes(item.data.user.name)) {
+				continue;
+			}
+		}
+		// 6为你推荐更多精彩内容 15过滤提示
+		if (item.type === 6 || item.type === 15) {
+			continue;
+		}
+		let adType = item.adType || '';
+		if (delType.indexOf(adType) === -1) {
+			newItems.push(item);
+		}
+	}
 	log('remove 评论区相关和推荐内容');
 	data.datas = newItems;
 }
