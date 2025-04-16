@@ -16,7 +16,7 @@ const mainConfig = storeMainConfig ? JSON.parse(storeMainConfig) : {
 	removeGood: true,			//微博主好物种草
 	removeFollow: true,			//关注博主
 	modifyMenus: true,			//编辑上下文菜单
-	removeRelateItem: false,	//评论区相关内容
+	removeRelateItem: true,	//评论区相关内容
 	removeRecommendItem: true,	//评论区推荐内容
 	removeRewardItem: false,	//微博详情页打赏模块
 
