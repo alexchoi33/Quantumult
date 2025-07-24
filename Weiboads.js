@@ -64,7 +64,7 @@ try {
     delete resp_data.ad_tag_nature;
     delete resp_data.title_source;
     delete resp_data.reward_info;
-    delete resp_data.recommendations;
+    delete resp_data.recommendation;
     console.log('处理微博详情页面广告结束💕💕');
   }
   if (url.includes("/statuses/container_detail?")) {
@@ -157,8 +157,6 @@ try {
   }
   if (url.includes("/statuses/container_detail_comment?")) {
     resp_data.items = resp_data.items.filter(item => item.type !== "trend");
-    resp_data.items = resp_data.items.filter(item => item.type !== "相关推荐");
-    resp_data.items = resp_data.items.filter(item => item.type !== "recommendations");
     console.log('处理评论区广告结束1💕💕');
   }
   
