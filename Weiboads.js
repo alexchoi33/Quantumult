@@ -154,14 +154,6 @@ try {
     resp_data.datas = resp_data.datas.filter(item => item.adType !== "广告");
     console.log('处理评论区广告结束💕💕');
   }
-  if (url.includes("/comments/mix_comments?")) {
-    resp_data.datas = resp_data.datas.filter(item => item.adType !== "相关内容");
-    console.log('处理评论区广告结束💕💕');
-  }
-  if (url.includes("/comments/mix_comments?")) {
-    resp_data.datas = resp_data.datas.filter(item => item.adType !== "相关评论");
-    console.log('处理评论区广告结束💕💕');
-  }
   if (url.includes("/statuses/container_detail_comment?")) {
     resp_data.items = resp_data.items.filter(item => item.type !== "trend");
     console.log('处理评论区广告结束💕💕');
