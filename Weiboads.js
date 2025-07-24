@@ -157,7 +157,9 @@ try {
   }
   if (url.includes("/statuses/container_detail_comment?")) {
     resp_data.items = resp_data.items.filter(item => item.type !== "trend");
-    console.log('处理评论区广告结束💕💕');
+    resp_data.items = resp_data.items.filter(item => item.type !== "相关推荐");
+    resp_data.items = resp_data.items.filter(item => item.type !== "recommendations");
+    console.log('处理评论区广告结束1💕💕');
   }
   
   // 9、转发区广告
