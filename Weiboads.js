@@ -64,6 +64,7 @@ try {
     delete resp_data.ad_tag_nature;
     delete resp_data.title_source;
     delete resp_data.reward_info;
+    delete resp_data.recommendations;
     console.log('处理微博详情页面广告结束💕💕');
   }
   if (url.includes("/statuses/container_detail?")) {
