@@ -70,6 +70,15 @@ try {
     resp_data.pageHeader.data.items = resp_data.pageHeader.data.items.filter(item =>
       item?.category !== 'card' && item?.category !== "group" && item?.category !== "wboxcard" && item?.type !== 'share'
     );
+    // 详情页面的关注悬浮横幅
+    if (resp_data.detailInfo?.extend?.follow_data) {
+      delete resp_data.detailInfo.extend.follow_data;
+      console.log('处理微博关注悬浮横幅结束💕💕');
+    }
+    if (resp_data.detailInfo?.extend?.topicpage) {
+      delete resp_data.detailInfo.extend.topicpage;
+      console.log('处理微博超话悬浮横幅结束💕💕');
+    }
   }
 
   // 6、移除微博首页的多余tab页 微博首页Tab标签页
