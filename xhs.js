@@ -427,15 +427,7 @@ function imageEnhance(jsonStr) {
   if (imageQuality === "original") { // 原始分辨率，PNG格式的图片，占用空间比较大
     console.log("画质设置为-原始分辨率");
     jsonStr = jsonStr.replace(/\?imageView2\/2[^&]*(?:&redImage\/frame\/0)/, "?imageView2/0/format/jpg&redImage/frame/0");
-  } else { // 高像素输出
-    console.log("画质设置为-高像素输出");
-    const regex1 = /imageView2\/2\/w\/+\/format/g;
-    jsonStr = jsonStr.replace(regex1, `imageView2/2/w/format`);
-
-    const regex2 = /imageView2\/2\/h\/+\/format/g;
-    jsonStr = jsonStr.replace(regex2, `imageView2/2/h/format`);
-  }
-  console.log('图片画质增强完成✅');
+  } 
 
   try {
     return JSON.parse(jsonStr);
