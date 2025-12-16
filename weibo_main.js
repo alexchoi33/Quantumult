@@ -205,20 +205,6 @@ function removeMain(data) {
 
     const src = item.data ?? item.status; // ⭐ 关键新增
 
-    if (!isAd(src)) {
-      // 无水印图片，但画质较低
-      /*if (src?.pic_infos) {
-        for (let key in src.pic_infos) {
-          let picture = src.pic_infos[key];
-          let high_url = picture.original.url.replace("orh1080", "oslarge");
-          picture.largest.url = high_url;
-          picture.thumbnail.url = high_url;
-          picture.large.url = high_url;
-          picture.middleplus.url = high_url;
-          picture.mw2000.url = high_url;
-          picture.bmiddle.url = high_url;
-        }*/
-      }
       // 删除一条微博下面的图片广告（测试功能）
       if (src?.extend_info?.shopwindow_cards) {
         delete src.extend_info.shopwindow_cards;
