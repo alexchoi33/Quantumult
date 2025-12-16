@@ -216,8 +216,8 @@ function removeMain(data) {
           picture.large.url = high_url;
           picture.middleplus.url = high_url;
           picture.mw2000.url = high_url;
-          picture.bmiddle.url = high_url;*/
-        }
+          picture.bmiddle.url = high_url;
+        }*/
       }
       // 删除一条微博下面的图片广告（测试功能）
       if (src?.extend_info?.shopwindow_cards) {
