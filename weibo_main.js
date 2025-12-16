@@ -205,6 +205,12 @@ function removeMain(data) {
 
     const src = item.data ?? item.status; // ⭐ 关键新增
 
+    if (!isAd(src)) {
+      // 无水印图片，但画质较低
+      if (src?.pic_infos) {
+        log('picture');
+        }
+      }
       // 删除一条微博下面的图片广告（测试功能）
       if (src?.extend_info?.shopwindow_cards) {
         delete src.extend_info.shopwindow_cards;
