@@ -205,7 +205,8 @@ function removeMain(data) {
 
     const src = item.data ?? item.status; // ⭐ 关键新增
 
- 
+    if (!isAd(src)) {
+
       // 删除一条微博下面的图片广告（测试功能）
       if (src?.extend_info?.shopwindow_cards) {
         delete src.extend_info.shopwindow_cards;
