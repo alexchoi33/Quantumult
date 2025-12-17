@@ -1,7 +1,70 @@
-const mainConfig = { isDebug: !1, author: "ddgksf2013", removeHomeVip: !0, removeHomeCreatorTask: !0, removeRelate: !0, removeGood: !0, removeFollow: !0, modifyMenus: !0, removeRelateItem: !1, removeRecommendItem: !0, removeRewardItem: !0, removeLiveMedia: !0, removeNextVideo: !1, removePinedTrending: !0, removeInterestFriendInTopic: !1, removeInterestTopic: !1, removeInterestUser: !0, removeLvZhou: !0, removeSearchWindow: !0, profileSkin1: null, profileSkin2: null, tabIconVersion: 0, tabIconPath: "" },
-    itemMenusConfig = { creator_task: !1, mblog_menus_custom: !1, mblog_menus_video_later: !0, mblog_menus_comment_manager: !0, mblog_menus_avatar_widget: !1, mblog_menus_card_bg: !1, mblog_menus_long_picture: !0, mblog_menus_delete: !0, mblog_menus_edit: !0, mblog_menus_edit_history: !0, mblog_menus_edit_video: !0, mblog_menus_sticking: !0, mblog_menus_open_reward: !0, mblog_menus_novelty: !1, mblog_menus_favorite: !0, mblog_menus_promote: !0, mblog_menus_modify_visible: !0, mblog_menus_copy_url: !0, mblog_menus_follow: !0, mblog_menus_video_feedback: !0, mblog_menus_shield: !0, mblog_menus_report: !0, mblog_menus_apeal: !0, mblog_menus_home: !0 },
-    modifyCardsUrls = ["/cardlist", "video/community_tab", "searchall"],
-    modifyStatusesUrls = ["statuses/friends/timeline", "statuses_unread_hot_timeline", "statuses/unread_friends_timeline", "statuses/unread_hot_timeline", "groups/timeline", "statuses/friends_timeline"],
+const mainConfig = {
+    isDebug: !1,
+    author: "ddgksf2013",
+    removeHomeVip: !0,
+    removeHomeCreatorTask: !0,
+    removeRelate: !0,
+    removeGood: !0,
+    removeFollow: !0,
+    modifyMenus: !0,
+    removeRelateItem: !1,
+    removeRecommendItem: !0,
+    removeRewardItem: !0,
+    removeLiveMedia: !0,
+    removeNextVideo: !1,
+    removePinedTrending: !0,
+    removeInterestFriendInTopic: !1,
+    removeInterestTopic: !1,
+    removeInterestUser: !0,
+    removeLvZhou: !0,
+    removeSearchWindow: !0,
+    profileSkin1: null,
+    profileSkin2: null,
+    tabIconVersion: 0,
+    tabIconPath: ""
+};
+
+const itemMenusConfig = {
+    creator_task: !1,
+    mblog_menus_custom: !1,
+    mblog_menus_video_later: !0,
+    mblog_menus_comment_manager: !0,
+    mblog_menus_avatar_widget: !1,
+    mblog_menus_card_bg: !1,
+    mblog_menus_long_picture: !0,
+    mblog_menus_delete: !0,
+    mblog_menus_edit: !0,
+    mblog_menus_edit_history: !0,
+    mblog_menus_edit_video: !0,
+    mblog_menus_sticking: !0,
+    mblog_menus_open_reward: !0,
+    mblog_menus_novelty: !1,
+    mblog_menus_favorite: !0,
+    mblog_menus_promote: !0,
+    mblog_menus_modify_visible: !0,
+    mblog_menus_copy_url: !0,
+    mblog_menus_follow: !0,
+    mblog_menus_video_feedback: !0,
+    mblog_menus_shield: !0,
+    mblog_menus_report: !0,
+    mblog_menus_apeal: !0,
+    mblog_menus_home: !0
+};
+
+const modifyCardsUrls = [
+    "/cardlist",
+    "video/community_tab",
+    "searchall"
+];
+
+const modifyStatusesUrls = [
+    "statuses/friends/timeline",
+    "statuses_unread_hot_timeline",
+    "statuses/unread_friends_timeline",
+    "statuses/unread_hot_timeline",
+    "groups/timeline",
+    "statuses/friends_timeline"
+];
     otherUrls = {
         "/profile/me": "removeHome",
         "/statuses/extend": "itemExtendHandler",
