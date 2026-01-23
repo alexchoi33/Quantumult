@@ -1,9 +1,9 @@
 HOST-SUFFIX,ns.itunes.apple.com
-HOST,appldnld.apple.com
-HOST,mesu.apple.com
-HOST,xp.apple.com
-HOST,gdmf.apple.com
-HOST-SUFFIX,iadsdk.apple.com
-HOST-SUFFIX,ads.internal.unity3d.com
-HOST-SUFFIX,ads.prd.ie.internal.unity3d.com
-HOST-SUFFIX,unityads.unity3d.com
+HOST,appldnld.apple.com Apple Update
+HOST,mesu.apple.com Apple Update
+HOST,xp.apple.com Apple Update
+HOST,gdmf.apple.com Apple Update
+HOST-SUFFIX,iadsdk.apple.com Apple Update
+HOST-SUFFIX,ads.internal.unity3d.com Apple Update
+HOST-SUFFIX,ads.prd.ie.internal.unity3d.com Apple Update
+HOST-SUFFIX,unityads.unity3d.com Apple Update
