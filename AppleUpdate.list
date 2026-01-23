@@ -1,0 +1,10 @@
+HOST, xp.apple.com, Apple Update
+HOST, gdmf.apple.com, Apple Update
+# 经过测试 实际起作用的好像就上面两个
+HOST, ns.itunes.apple.com, Apple Update
+HOST, appldnld.apple.com, Apple Update
+HOST, mesu.apple.com, Apple Update
+HOST-SUFFIX, iadsdk.apple.com, Apple Update
+HOST-SUFFIX, ads.internal.unity3d.com, Apple Update
+HOST-SUFFIX, ads.prd.ie.internal.unity3d.com, Apple Update
+HOST-SUFFIX, unityads.unity3d.com, Apple Update
