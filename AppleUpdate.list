@@ -1,9 +1,0 @@
-DOMAIN,ns.itunes.apple.com, AppleUpate
-DOMAIN,appldnld.apple.com, AppleUpate
-DOMAIN,mesu.apple.com, AppleUpdate
-DOMAIN,xp.apple.com, AppleUpdate
-DOMAIN,gdmf.apple.com, AppleUpdate
-DOMAIN-SUFFIX,iadsdk.apple.com, AppleUpdate
-DOMAIN-SUFFIX,ads.internal.unity3d.com, AppleUpdate
-DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com, AppleUpdate
-DOMAIN-SUFFIX,unityads.unity3d.com, AppleUpdate
