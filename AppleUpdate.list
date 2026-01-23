@@ -1,9 +1,9 @@
 
-HOST,appldnld.apple.com
-HOST,mesu.apple.com
-HOST,xp.apple.com
-HOST,gdmf.apple.com
-HOST-SUFFIX,iadsdk.apple.com
-HOST-SUFFIX,ads.internal.unity3d.com
-HOST-SUFFIX,ads.prd.ie.internal.unity3d.com
-HOST-SUFFIX,unityads.unity3d.com
+DOMAIN,appldnld.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,gdmf.apple.com
+DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,ads.internal.unity3d.com
+DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
