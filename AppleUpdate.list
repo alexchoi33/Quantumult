@@ -1,5 +1,5 @@
-HOST, xp.apple.com
-HOST, gdmf.apple.com
+HOST, xp.apple.com,AppleUpdate
+HOST, gdmf.apple.com,AppleUpdate
 # 经过测试 实际起作用的好像就上面两个
 #HOST, ns.itunes.apple.com, Apple Update
 #HOST, appldnld.apple.com, Apple Update
