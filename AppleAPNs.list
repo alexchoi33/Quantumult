@@ -1,6 +1,6 @@
-DOMAIN-SUFFIX,push.apple.com,PROXY
-DOMAIN-SUFFIX,akadns.net,PROXY
-DOMAIN-KEYWORD,apple.com.edgekey.net,PROXY
+HOST-SUFFIX,push.apple.com,PROXY
+HOST-SUFFIX,akadns.net,PROXY
+HOST-KEYWORD,apple.com.edgekey.net,PROXY
 
 IP-CIDR,17.249.0.0/16,PROXY,no-resolve
 IP-CIDR,17.252.0.0/16,PROXY,no-resolve
