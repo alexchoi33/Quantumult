@@ -1,4 +1,120 @@
-host-keyword,admarvel,reject
+#A
+# > Apple
+host, advertising.apple.com, reject
+host, api-adservices.apple.com, reject
+host, apple.comscoreresearch.com, reject
+host, banners.itunes.apple.com, reject
+host, iad.apple.com, reject
+host, iadcontent.apple.com, reject
+host, iadctest.qwapi.com, reject
+host, iadmoo.apple.com, reject
+host, iadworkbench.apple.com, reject
+host, launch.apple.com, reject
+host, metrics.apple.com, reject
+host, qwapi.apple.com, reject
+host, securemetrics.apple.com, reject
+host, webproxy-advp.iad-apple.com, reject
+host, webproxy-advp.iad-apple.com.akadns.net, reject
+host-suffix, advp.apple.com, reject
+host-suffix, iadsdk.apple.com, reject
+
+#B
+# > 百度地图
+host, afd.baidu.com, reject
+host, afdconf.baidu.com, reject
+host, httpdns.baidubce.com, reject
+host, lc.map.baidu.com, reject
+
+#G
+# > Google
+host-suffix, google-analytics.com, reject
+host, safebrowsing.googleapis.com, reject
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googleadsserving.cn, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, googletagservices.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, video-ad-stats.googlesyndication.com, reject
+host-suffix, tpc.googlesyndication.com, reject
+host-suffix, pagead.google.com, reject
+host-suffix, pagead.l.google.com, reject
+host-suffix, pagead2.googlesyndication.com, reject
+host-suffix, pagead-tpc.l.google.com, reject
+host-suffix, mobileads.google.com, reject
+host-suffix, googlecommerce.com, reject
+host-suffix, blaaaa12.googlecode.com, reject
+host-suffix, badad.googleplex.com, reject
+host-suffix, afs.googlesyndication.com, reject
+host-suffix, afd.l.google.com, reject
+host-suffix, www.googleadservices.com, reject
+host-suffix, www.google-analytics.com, reject
+host, ads.youtube.com, reject
+host-suffix, cmshow.gtimg.cn, reject
+host-suffix, discuz.gtimg.cn, reject
+host-suffix, gu.qlogo.cn, reject
+host-suffix, py.qlogo.cn, reject
+host-suffix, py2.qlogo.cn, reject
+host-suffix, app-measurement.com, reject
+host-suffix, admob.com, reject
+host-suffix, crashlytics.com, reject
+host-suffix, pagespeed-mod, reject
+host-suffix, csi.gstatic.com, reject
+host-suffix, beacon.gtimg.com, reject
+host-suffix, bla.gtimg.com, reject
+host-suffix, lb.gtimg.com, reject
+host-suffix, pgdt.gtimg.com, reject
+host-suffix, ra.gtimg.com, reject
+host-suffix, splashqqlive.gtimg.com, reject
+host-suffix, swa.gtimg.com, reject
+host-suffix, tui.gtimg.com, reject
+host-suffix, wa.gtimg.com, reject
+host-suffix, wb.gtimg.com, reject
+host-suffix, e.crashlytics.com, reject
+host-suffix, setting.crashlytics.com, reject
+host-suffix, settings.crashlytics.com, reject
+host-suffix, gcdn.2mdn.net, reject
+host-suffix, s0.2mdn.net, reject
+host-suffix, s1.2mdn.net, reject
+host-suffix, pgdt.ugdtimg.com, reject
+host-suffix, adclick.g.doublecklick.net, reject
+
+#M
+# > 美图秀秀
+host-suffix, corp.meitu.com, reject
+host-suffix, gg.meitu.com, reject
+host-suffix, message.meitu.com, reject
+host-suffix, tuiguang.meitu.com, reject
+host-suffix, xiuxiu.android.dl.meitu.com, reject
+host-suffix, adui.tg.meitu.com, reject
+host-suffix, rabbit.tg.meitu.com, reject
+host-suffix, meitubeauty.meitudata.com, reject
+host-suffix, xiuxiu.mobile.meitudata.com, reject
+host-suffix, dc.meitustat.com, reject
+host-suffix, mdc.meitustat.com, reject
+host-suffix, rabbit.meitustat.com, reject
+
+#O
+# > Outlook
+host, acdn.adnxs.com, reject
+host, mediation.adnxs.com, reject
+host, sin3-ib.adnxs.com, reject
+
+#S
+# > 收钱吧
+# 买单小程序去广告
+host, ads-shopping.shouqianba.com, reject
+
+#T
+# > Twitter
+host-suffix, ads-twitter.com, reject
+host-suffix, p.twitter.com, reject
+host-suffix, scribe.twitter.com, reject
+host-suffix, syndication.twitter.com, reject
+host-suffix, syndication-o.twitter.com, reject
+host-suffix, urls.api.twitter.com, reject
+
+# 广告与追踪域名屏蔽
 host-keyword,admaster,reject
 host-keyword,adsage,reject
 host-keyword,adsmogo,reject
