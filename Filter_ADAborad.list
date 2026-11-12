@@ -1,0 +1,307 @@
+# ==========================================
+# 国外广告、追踪与统计域名屏蔽列表
+# ==========================================
+
+# -- 综合海外广告与平台 --
+host-keyword, 1a-1791.com, reject
+host-keyword, 8.adfarm1.adition.com, reject
+host-keyword, adform, reject
+host-keyword, admarvel.com, reject
+host-keyword, ad-stir.com, reject
+host-keyword, adadapted.com, reject
+host-keyword, ads.adadapted.com, reject
+host-keyword, adchina.com, reject
+host-keyword, adchina.io, reject
+host-keyword, addthis.com, reject
+host-keyword, addthisedge.com, reject
+host-keyword, adinall.com, reject
+host-keyword, dsp.adfarm1.adition.com, reject
+host-keyword, adjust.io, reject
+host-keyword, adroll.com, reject
+host-keyword, adtaily.com, reject
+host-keyword, adzerk.net, reject
+host-keyword, sync-dsp.ad-m.asia, reject
+host-keyword, adcolony.com, reject
+host-keyword, aerserv.com, reject
+host-keyword, airpush.com, reject
+host-keyword, app-adforce.jp, reject
+host-keyword, appadhoc.com, reject
+host-keyword, sdk.appadhoc.com, reject
+host-keyword, appsflyer.com, reject
+
+# -- B & C 系列海外广告与数据 --
+host-keyword, bluekai.com, reject
+host-keyword, casalemedia.com, reject
+host-keyword, as.casalemedia.com, reject
+host-keyword, ssum.casalemedia.com, reject
+host-keyword, cdntips.net, reject
+host-keyword, chartboost.com, reject
+host-keyword, criteo.net, reject
+host-keyword, criteo.com, reject
+host-keyword, dis.crieto.com, reject
+host-keyword, cas.criteo.com, reject
+host-keyword, dis.criteo.com, reject
+host-keyword, gum.criteo.com, reject
+host-keyword, rtax.criteo.com, reject
+host-keyword, widget.criteo.com, reject
+host-keyword, dis.us.criteo.com, reject
+
+# -- D & E 系列 --
+host-keyword, scorecardresearch.com, reject
+host-keyword, b.scorecardresearch.com, reject
+host-keyword, sb.scorecardresearch.com, reject
+host-keyword, udm.scorecardresearch.com, reject
+host-keyword, dtscout, reject
+host-keyword, dtscout.com, reject
+host-suffix, doubleclick.net, reject
+host-keyword, main.exoclick.com, reject
+host-keyword, syndication.exoclick.com, reject
+host-keyword, exosrv.com, reject
+host-keyword, ads.exosrv.com, reject
+
+# -- F 系列 --
+host-keyword, flurry.com, reject
+host-keyword, ad.flurry.com, reject
+host-keyword, adlog.flurry.com, reject
+host-keyword, proton.flurry.com, reject
+host-keyword, flurry.cachefly.net, reject
+
+# -- I 系列海外平台 --
+host-keyword, innity.com, reject
+host-keyword, avn.innity.com, reject
+host-keyword, cast.innity.com, reject
+host-keyword, innity.net, reject
+host-keyword, cdn.innity.net, reject
+host-keyword, cdn.media.innity.net, reject
+host-keyword, ssl-cdn.media.innity.net, reject
+host-keyword, inmobi.cn, reject
+host-keyword, inmobicdn.cn, reject
+host-keyword, inmobi.com, reject
+host-keyword, inmobi.net, reject
+host-keyword, inmobicdn.net, reject
+host-keyword, ironsrc.com, reject
+host-keyword, supersonic.com, reject
+host-keyword, supersonicads.com, reject
+
+# -- J & K 系列 --
+host-keyword, juicyads.com, reject
+host-keyword, juicyads.in, reject
+host-keyword, adserver.juicyads.com, reject
+host-keyword, img.jizzads.com, reject
+host-keyword, kejet.com, reject
+host-keyword, as.kejet.com, reject
+host-keyword, code.kejet.com, reject
+host-keyword, dmacore.kejet.com, reject
+host-keyword, kejet.net, reject
+host-keyword, as.kejet.net, reject
+host-keyword, aw.kejet.net, reject
+host-keyword, ck.kejet.net, reject
+host-keyword, cmarket.kejet.net, reject
+host-keyword, dmacore.kejet.net, reject
+host-keyword, dmp.kejet.net, reject
+host-keyword, ec.kejet.net, reject
+host-keyword, hzdmacore.kejet.net, reject
+host-keyword, m.kejet.net, reject
+host-keyword, rtb-p.kejet.net, reject
+host-keyword, kissmetrics.com, reject
+host-keyword, krux.net, reject
+host-keyword, kochava.com, reject
+
+# -- L 系列 --
+host-keyword, leadbolt.net, reject
+host-keyword, ad.leadbolt.net, reject
+host-keyword, api.leadbolt.net, reject
+host-keyword, leadboltads.net, reject
+host-keyword, ad.leadboltads.net, reject
+host-keyword, leadboltapps.net, reject
+host-keyword, ad.leadboltapps.net, reject
+host-keyword, leadboltmobile.net, reject
+host-keyword, ad.leadboltmobile.net, reject
+host-keyword, localytics.com, reject
+
+# -- M 系列海外平台 --
+host-keyword, marketgid.com, reject
+host-keyword, ag-gb.marketgid.com, reject
+host-keyword, cdn.marketgid.com, reject
+host-keyword, counter.marketgid.com, reject
+host-keyword, imgg.marketgid.com, reject
+host-keyword, jsc.marketgid.com, reject
+host-keyword, wsp.marketgid.com, reject
+host-keyword, mgid.com, reject
+host-keyword, aa-gb.mgid.com, reject
+host-keyword, ab-gb.mgid.com, reject
+host-keyword, ac-gb.mgid.com, reject
+host-keyword, ad-gb.mgid.com, reject
+host-keyword, ae-gb.mgid.com, reject
+host-keyword, aj-gb.mgid.com, reject
+host-keyword, imgg.mgid.com, reject
+host-keyword, jsc.mgid.com, reject
+host-keyword, usr.mgid.com, reject
+host-keyword, aa.goodsblock.mgid.com, reject
+host-keyword, ab.goodsblock.mgid.com, reject
+host-keyword, millennialmedia.com, reject
+host-keyword, cdn.millennialmedia.com, reject
+host-keyword, images.millennialmedia.com, reject
+host-keyword, mxpnl.com, reject
+host-keyword, moatads.com, reject
+host-keyword, geo.moatads.com, reject
+host-keyword, js.moatads.com, reject
+host-keyword, px.moatads.com, reject
+host-keyword, z.moatads.com, reject
+host-keyword, mobfox.com, reject
+host-keyword, my.mobfox.com, reject
+host-keyword, mathtag, reject
+host-keyword, mathtag.com, reject
+host-keyword, pixel.mathtag.com, reject
+host-keyword, sync.mathtag.com, reject
+host-keyword, mopub.com, reject
+
+# -- N & O 系列 --
+host-keyword, networkbench.com, reject
+host, ads.nicovideo.jp, reject
+host-keyword, onetad.com, reject
+host-keyword, code11.onetad.com, reject
+host-keyword, code12.onetad.com, reject
+host-keyword, pic1.onetad.com, reject
+host-keyword, pic2.onetad.com, reject
+host-keyword, pic3.onetad.com, reject
+host-keyword, pic8.onetad.com, reject
+host-keyword, ww10.onetad.com, reject
+host-keyword, ww101.onetad.com, reject
+host-keyword, ww11.onetad.com, reject
+host-keyword, ww12.onetad.com, reject
+host-keyword, ww13.onetad.com, reject
+host-keyword, ww202.onetad.com, reject
+host-keyword, ww34.onetad.com, reject
+host-keyword, ww346.onetad.com, reject
+host-keyword, ww360.onetad.com, reject
+host-keyword, ww363.onetad.com, reject
+host-keyword, ww366.onetad.com, reject
+host-keyword, ww78.onetad.com, reject
+host-keyword, ww8.onetad.com, reject
+host-keyword, ww9.onetad.com, reject
+host-keyword, wwv.onetad.com, reject
+host-keyword, openx.net, reject
+host-keyword, optimizelyapis.com, reject
+
+# -- P & Q 系列 --
+host-keyword, pagechoice.com, reject
+host-keyword, pagechoice.net, reject
+host-keyword, col.pagechoice.net, reject
+host-keyword, dap.pagechoice.net, reject
+host-keyword, images.pagechoice.net, reject
+host-keyword, motu.pagechoice.net, reject
+host-keyword, sit.pagechoice.net, reject
+host-keyword, plista.com, reject
+host-keyword, click-cn.plista.com, reject
+host-keyword, farm-cn.plista.com, reject
+host-keyword, pubnative.net, reject
+host-keyword, popads.net, reject
+host-keyword, c1.popads.net, reject
+host-keyword, c2.popads.net, reject
+host-keyword, serve.popads.net, reject
+host-keyword, pubmatic.com, reject
+host-keyword, quantcount.com, reject
+host-keyword, quantserve.com, reject
+host-keyword, cms.quantserve.com, reject
+host-keyword, edge.quantserve.com, reject
+host-keyword, pixel.quantserve.com, reject
+host-keyword, secure.quantserve.com, reject
+
+# -- R & S 系列 --
+host-keyword, rayjump.com, reject
+host-keyword, net.rayjump.com, reject
+host-keyword, setting.rayjump.com, reject
+host-keyword, rubiconproject.com, reject
+host-keyword, beacon-us-sjc1.rubiconproject.com, reject
+host-keyword, eus.rubiconproject.com, reject
+host-keyword, optimized-by.rubiconproject.com, reject
+host-keyword, pixel.rubiconproject.com, reject
+host-keyword, secure-assets.rubiconproject.com, reject
+host-keyword, tap.rubiconproject.com, reject
+host-keyword, tap-cdn.rubiconproject.com, reject
+host-keyword, tap-t.rubiconproject.com, reject
+host-keyword, token.rubiconproject.com, reject
+host-keyword, usync.aws.rubiconproject.com, reject
+host-keyword, rumble.com, reject
+host-keyword, smartadserver.com, reject
+host-keyword, cdn1.smartadserver.com, reject
+host-keyword, ww251.smartadserver.com, reject
+host-keyword, ww881.smartadserver.com, reject
+host-keyword, www6.smartadserver.com, reject
+host-keyword, snap.snapmobile.asia, reject
+host-keyword, snapmobileasia.net, reject
+host-keyword, selfie.snapmobileasia.net, reject
+host-keyword, statcounter.com, reject
+host-keyword, c.statcounter.com, reject
+host-keyword, c1.statcounter.com, reject
+host-keyword, c2.statcounter.com, reject
+host-keyword, secure.statcounter.com, reject
+host-keyword, segment.com, reject
+host-keyword, segment.io, reject
+host-keyword, cdn-settings.segment.com, reject
+host-keyword, mobile-service.segment.com, reject
+host-keyword, serving-sys.com, reject
+host-keyword, activity.serving-sys.com, reject
+host-keyword, bs.serving-sys.com, reject
+host-keyword, bsch.serving-sys.com, reject
+host-keyword, datacapture.serving-sys.com, reject
+host-keyword, ds.serving-sys.com, reject
+host-keyword, ds-ll.serving-sys.com, reject
+host-keyword, secure-ds.serving-sys.com, reject
+host-keyword, us.bs.serving-sys.com, reject
+host-keyword, smaato.net, reject
+host-keyword, startapp.com, reject
+host-keyword, startappexchange.com, reject
+host-keyword, startappservice.com, reject
+host-keyword, lp.startapp.com, reject
+host-keyword, init.startappexchange.com, reject
+host-keyword, dts.akamai.startappexchange.com, reject
+host-keyword, images.startappservice.com, reject
+host-keyword, req.startappservice.com, reject
+
+# -- T 系列海外 --
+host-keyword, clk.taptica.com, reject
+host-keyword, trafficfactory.biz, reject
+host-keyword, media.trafficfactory.biz, reject
+host-keyword, rpc-php.trafficfactory.biz, reject
+host-keyword, trafficjunky.com, reject
+host-keyword, trafficjunky.net, reject
+host-keyword, media.trafficjunky.net, reject
+host-keyword, vz-cdn.trafficjunky.net, reject
+host-keyword, tapad.com, reject
+host-keyword, pixel.tapad.com, reject
+host-keyword, tapjoy.cn, reject
+host-keyword, tapjoy.com, reject
+host-keyword, tapjoyads.com, reject
+host-keyword, ws.tapjoyads.com, reject
+host-keyword, tfogc.com, reject
+
+# -- V, Y & Z 系列海外 --
+host-keyword, viglink.com, reject
+host-keyword, api.viglink.com, reject
+host-keyword, cdn.viglink.com, reject
+host, apicdn.viglink.com, reject
+host, mc.viglink.com, reject
+host, ns2.viglink.com, reject
+host, ns3.viglink.com, reject
+host, ns4.viglink.com, reject
+host, qa.viglink.com, reject
+host-keyword, voiceads.com, reject
+host-keyword, vungle.cn, reject
+host-keyword, vpon.com, reject
+host-keyword, beta.vpon.com, reject
+host-keyword, biz.vpon.com, reject
+host-keyword, fw.vpon.com, reject
+host-keyword, jira.vpon.com, reject
+host-keyword, m.vpon.com, reject
+host-keyword, tw.adon.vpon.com, reject
+host-keyword, tw.api.vpon.com, reject
+host-keyword, cn.pub.vpon.com, reject
+host-keyword, tw.pub.vpon.com, reject
+host-keyword, st.yandexadexchange.net, reject
+host-keyword, ads.yandex.com, reject
+host-keyword, st.yengo.com, reject
+host-keyword, zedo.com, reject
+host-keyword, d8.zedo.com, reject
+host-keyword, z1.zedo.com, reject
