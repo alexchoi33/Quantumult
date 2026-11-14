@@ -20,8 +20,7 @@ $.ret = {};
 
 // 固定指定的策略组名称
 const TARGET_GROUPS = [
-    'Google',
-    '𝗜nstagram'
+    'Google'
 ];
 
 !(async () => {
